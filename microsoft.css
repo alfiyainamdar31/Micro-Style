@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    /* font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+/** nav bar **/
+.navbar {
+    background-color: #fff;
+    color: black;
+    height: 55px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("logo_img.png");
+    background-size: cover;
+    height: 20px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.optns {
+    width: 45rem;
+    margin-right: 70px;
+}
+
+.optns ul,
+.optns2 ul {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 12px;
+}
+
+.optns ul a,
+.optns2 ul a {
+    text-decoration: none;
+    color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.optns a:hover,
+.optns2 span:hover {
+    text-decoration: underline;
+}
+
+.optns2 ul {
+    margin-right: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.optns2 i {
+    margin-left: 0.5rem;
+}
+
+.fa-circle-user {
+    font-size: 25px;
+} 
+
+/** hero section */
+.hero-section {
+    background-image: url("hero_img.avif");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-msg {
+   padding: 8rem;
+   margin-left: 45rem;
+}
+
+.hero-msg h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.msg {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.hero-msg button {
+    margin-top: 20px;
+    height: 40px;
+    width: 110px;
+    background-color: #0067b8;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hero-content {
+    display: flex;
+    margin-top: 100px;
+}
+
+.slide-ops {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.fa-circle {
+    font-size: 10px;
+}
+
+.fa-circle-pause, .fa-angle-left, .fa-angle-right {
+    font-size: 20px;
+}
+
+.wind-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.wind-links i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.wind-links i a {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: #0067b8;
+}
+
+/* main sectiom */
+
+.website-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-sectn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 10px;
+    /* background-color: #e2e7e6; */
+}
+
+.mainbox {
+    /* background-color: aqua; */
+    height: 540px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 50px;
+}
+
+.main-img img {
+    width: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-content {
+    margin-right: 1rem;
+} 
+
+.main-content h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.main-content p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.main-content a,  .main-content a i {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.main-content a {
+    color: #0067b8;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.xbox-hero {
+    background-image: url("xbox_hero_img.webp");
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.xbox-msg {
+    margin-left: 100px;
+}
+
+.xbox-msg h1, .business-heading h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.xbox-msg p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.xbox-msg button {
+    margin-top: 20px;
+    height: 40px;
+    width: 170px;
+    background-color: #0067b8;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.business .main-sectn {
+    margin-top: -70px;
+}
+
+.business-heading h1 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-left: 5.5rem;
+}
+
+/* social media */
+
+.contact-us {
+    width: 30%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 5rem;
+    gap: 15px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.35rem;
+}
+
+/* footer */
+
+footer {
+    background-color: #ececec;
+    /* color: #616161; */
+    height: 410px;
+}
+
+.foot-panel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel ul p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #616161;
+}
+
+.foot-panel ul {
+    /* list-style: none; */
+    margin-top: 30px;
+}
+
+.foot-panel a,
+.foot-links a {
+    text-decoration: none;
+    font-size: 11px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    color: #616161;
+}
+
+.foot-panel a:hover,
+.foot-panel2 a:hover,
+.foot-links span:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.foot-panel2 ul {
+    font-size: 11px;
+    line-height: 16px;
+    float: right;
+    margin: 50px 100px 3px 0;
+}
+
+.foot-panel2 a {
+    text-decoration: none;
+    color: #616161;
+    margin-left: 20px;
+}
+
+.foot-links span {
+    margin-left: 10px;
+}
+
+.foot-links {
+    padding: 30px;
+    margin-left: 50px;
+}
