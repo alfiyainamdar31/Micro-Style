@@ -8,9 +8,9 @@ A visually appealing and responsive clone of the Microsoft website, developed us
 
 ## Clone
 
-    ```bash
+```bash
     https://github.com/alfiyainamdar31/Micro-Style.git
-    ```
+ ```
 
 ## Contributing
 
