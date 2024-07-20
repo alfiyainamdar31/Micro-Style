@@ -9,7 +9,7 @@ A visually appealing and responsive clone of the Microsoft website, developed us
 ## Clone
 
     ```bash
-   https://github.com/alfiyainamdar31/Micro-Style.git
+    https://github.com/alfiyainamdar31/Micro-Style.git
     ```
 
 ## Contributing
